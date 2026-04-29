@@ -1,6 +1,7 @@
 {
     "name": "edituraedu/php-dbsc",
     "description": "Preliminary implementation of Device Bound Session Credential standard for PHP 8.4+",
+    "keywords": ["dbsc", "device-bound-session-credentials", "security", "tpm", "device bound session credentials"],
     "type": "library",
     "license": "MIT",
     "autoload": {

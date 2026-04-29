@@ -1,0 +1,27 @@
+{
+    "name": "edituraedu/php-dbsc",
+    "description": "Preliminary implementation of Device Bound Session Credential standard for PHP84+",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EdituraEDU\\DBSC\\": "src/",
+            "EdituraEDU\\DBSC\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tecsi Aron",
+            "email": "aron@edituraedu.ro"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.1",
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "require": {
+        "php": "^8.4",
+        "firebase/php-jwt": "^7.0"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "CookieName": "dbsc_guard",
+  "SessionUserJwtKey": "dbsc_user_jwt",
+  "SessionLastChallengeKey": "dbsc_last_challenge",
+  "StartEndpoint": "/app/Common/DBSC/start.php",
+  "StartResponseCookieDomain": ".edured.ro",
+  "StartResponseOriginDomain": "https://edured.ro",
+  "RefreshEndpoint": "/app/Common/DBSC/refresh.php",
+  "CookieRefreshLifetimeSeconds": 600,
+  "CookiePath": "/",
+  "CookieDomain": ".edured.ro",
+  "CookieSecure": true,
+  "CookieHttpOnly": true,
+  "CookieSameSite": "Lax",
+  "AutoEnforce": false,
+  "DestroySessionOnInvalidate": true
+}

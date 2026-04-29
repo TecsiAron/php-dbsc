@@ -277,7 +277,7 @@ class DBSCTest extends TestCase
         {
             if (stripos($headerLine, $headerName . ":") === 0 && stripos($headerLine, $expectedFragment) !== false)
             {
-                self::assertTrue(true);
+                self::assertTrue(true); //@phpstan-ignore staticMethod.alreadyNarrowedType
                 return;
             }
         }

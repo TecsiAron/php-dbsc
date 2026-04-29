@@ -1,0 +1,24 @@
+parameters:
+	level: 4
+	reportUnmatchedIgnoredErrors: false
+	tmpDir: tmp/phpstan
+	paths:
+		- src/
+		- tests/
+	treatPhpDocTypesAsCertain: false
+
+	ignoreErrors:
+		-
+			identifier: return.unusedType
+		-
+			identifier: method.unused
+		-
+			identifier: property.unused
+		-
+			identifier: classConstant.unused
+		-
+			identifier:  isset.offset
+		-
+		    identifier:  property.uninitializedReadonly
+		-
+			identifier: function.alreadyNarrowedType
